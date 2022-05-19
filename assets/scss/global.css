@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(~assets/Poppins/Poppins-Regular.ttf) format("truetype"), url(~assets/Poppins/Poppins-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(~assets/PlayfairDisplay/PlayfairDisplay-Bold.ttf) format("truetype");
+}
+#__nuxt {
+  height: 100%;
+}
+
+#__layout {
+  height: 100%;
+}
+
+body, html {
+  margin: 0;
+  height: 100%;
+  color: #1e2743;
+}
+
+body {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+body a {
+  color: #1e2743;
+  text-decoration: none;
+}
+body a:visited {
+  color: #1e2743;
+}
+
+/*# sourceMappingURL=global.css.map */

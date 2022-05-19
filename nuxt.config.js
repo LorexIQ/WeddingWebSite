@@ -14,10 +14,12 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~assets/scss/global.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -29,7 +31,14 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/style-resources'
   ],
+
+  styleResources: {
+    scss: [
+
+    ]
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
