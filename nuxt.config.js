@@ -37,7 +37,7 @@ export default {
   styleResources: {
     scss: [
 
-    ]
+    ],
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
